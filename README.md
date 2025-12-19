@@ -1,7 +1,5 @@
 # Terraform Provider for LakeFS
 
-[![Registry](https://img.shields.io/badge/registry-Face-to-Face-IT%2Flakefs-blue)](https://registry.terraform.io/providers/Face-to-Face-IT/lakefs/latest)
-
 This Terraform provider allows you to manage [LakeFS](https://lakefs.io/) resources using Infrastructure as Code.
 
 LakeFS is an open-source data version control system for data lakes. It provides Git-like operations such as branching, committing, and merging for your data.
