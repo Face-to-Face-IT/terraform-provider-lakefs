@@ -1,8 +1,20 @@
 # Terraform Provider for LakeFS
 
+> **⚠️ Important:** This provider is designed to work with the [Face-to-Face-IT fork of lakeFS](https://github.com/Face-to-Face-IT/lakeFS), **not** the upstream lakeFS releases. The RBAC features in this provider require API endpoints and authentication methods only available in our forked lakeFS builds.
+
 This Terraform provider allows you to manage [LakeFS](https://lakefs.io/) resources using Infrastructure as Code.
 
 LakeFS is an open-source data version control system for data lakes. It provides Git-like operations such as branching, committing, and merging for your data.
+
+## Compatibility
+
+| Provider Version | lakeFS Version |
+|------------------|----------------|
+| v0.1.x           | [Face-to-Face-IT/lakeFS](https://github.com/Face-to-Face-IT/lakeFS) with RBAC support |
+
+**This provider will NOT work with:**
+- Official lakeFS releases from [treeverse/lakeFS](https://github.com/treeverse/lakeFS)
+- lakeFS Cloud
 
 ## Requirements
 
